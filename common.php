@@ -1811,7 +1811,7 @@ function EnvOpt($needUpdate = 0)
     }
     $html .= '
 <a href="'.$preurl.'">'.getconstStr('Back').'</a>&nbsp;&nbsp;&nbsp;<a href="'.$_SERVER['base_path'].'">'.getconstStr('Back').getconstStr('Home').'</a><br>
-<a href="https://github.com/qkqpttgf/OneManager-php">Github</a><br>';
+<a href="https://github.com/ak688/OneManager-php">Github</a><br>';
 
     $html .= '
 <table border=1 width=100%>
@@ -2043,7 +2043,7 @@ function render_list($path = '', $files = '')
     date_default_timezone_set(get_timezone($_SERVER['timezone']));
     $authinfo = '<!--
     OneManager: An index & manager of Onedrive auth by ysun.
-    Github: https://github.com/qkqpttgf/OneManager-php
+    Github: https://github.com/ak688/OneManager-php
 -->';
     //$authinfo = $path . '<br><pre>' . json_encode($files, JSON_PRETTY_PRINT) . '</pre>';
 
